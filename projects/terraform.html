@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Liliane Konissi | Terraform AWS Infrastructure</title>
+  <meta name="description" content="Liliane Konissi project: Terraform AWS Infrastructure. Problem, solution, tools, outcome, and GitHub link." />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+  
+  <div class="nav"><div class="nav-inner">
+    <a class="brand" href="/"><span class="brand-badge"></span><span>Portfolio</span></a>
+    <div class="menu">
+      <a href="/">Home</a>
+      <a class="active" href="/projects/">Projects</a>
+      <a href="/services/">Skills</a>
+      <a href="/about/">About</a>
+      <a href="/contact/">Contact</a>
+    </div>
+  </div></div>
+  <main class="container">
+    <section class="section" style="padding-top:26px">
+      <div class="card tile">
+        <div class="kicker"><span class="kicker-dot"></span> Project</div>
+        <h1 class="h1" style="font-size:34px;margin-top:12px">Terraform AWS Infrastructure</h1>
+        <p class="sub">Infrastructure as Code project for provisioning AWS resources consistently.</p>
+        <div class="actions">
+          <a class="btn primary" href="https://github.com/lily4499/aws-terraform-infra" target="_blank" rel="noreferrer"><span class="icon"></span> GitHub Project</a>
+          <a class="btn ghost" href="/projects/"><span class="icon"></span> All Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="grid grid-2">
+        <div class="card tile">
+          <h3>Project Summary</h3>
+          <ul class="kv">
+            <li><b>Problem</b><span>Manual infrastructure changes cause drift, inconsistent environments, and risky deployments.</span></li>
+            <li><b>Solution</b><span>Define infrastructure in Terraform modules with remote state + locking for safe collaboration.</span></li>
+            <li><b>Tools</b><span>Terraform · AWS (VPC/IAM/SG/etc.) · Remote state · Locking</span></li>
+            <li><b>Outcome</b><span>Repeatable environments, easier audits, and faster provisioning with fewer configuration errors.</span></li>
+          </ul>
+        </div>
+
+        <div class="card tile">
+          <h3>Diagram (image placeholder)</h3>
+          <img src="/assets/img/diagram-terraform.png" alt="Diagram placeholder" style="border:1px solid var(--border);border-radius:16px;width:100%;height:auto" />
+          <div class="meta">Replace the image later in <code>assets/img/</code>.</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer">
+      <div class="small">© <span id="y"></span> Liliane Konissi</div>
+      <div class="small"><a href="/contact/">Contact</a> · <a href="https://github.com/lily4499/aws-terraform-infra" target="_blank" rel="noreferrer">GitHub</a></div>
+    </div>
+  </main>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
